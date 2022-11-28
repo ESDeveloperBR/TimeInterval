@@ -1,0 +1,12 @@
+# TimeInterval core library
+
+TimeInterval	KEYWORD1
+
+intervalMillis	KEYWORD2
+resetMillis     KEYWORD2
+intervalMicros	KEYWORD2
+resetMicros     KEYWORD2
+stopwatchStartMillis    KEYWORD2
+stopwatchStopMillis     KEYWORD2
+stopwatchStartMicros    KEYWORD2
+stopwatchStopMicros     KEYWORD2

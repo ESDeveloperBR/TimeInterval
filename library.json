@@ -1,0 +1,22 @@
+{
+  "name": "TimeInterval",
+  "version": "0.3.6",
+  "keywords": "TimeInterval, time, interval, ESDeveloperBR, millis, micros, delay, timer, stopwatch",
+  "description": "The TimeInterval class aims to facilitate the use of the ”micros()” and “millis()” commands, thus making time control more intuitive without paralyzing the main program.",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/ESDeveloperBR/TimeInterval"
+  },
+  "authors":
+  [
+    {
+        "name": "ESDeveloperBR",
+        "email": "esdeveloperbr@gmail.com",
+        "maintainer": true
+    }
+  ],
+  "frameworks": "arduino",
+  "platforms": "esp32, espressif8266, espressif32, ststm32, arduino",
+  "headers": "TimeInterval.h"
+}
