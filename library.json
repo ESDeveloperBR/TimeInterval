@@ -1,21 +1,21 @@
 {
   "name": "TimeInterval",
-  "version": "0.3.6",
+  "version": "0.3.7",
   "keywords": "TimeInterval, time, interval, ESDeveloperBR, millis, micros, delay, timer, stopwatch",
-  "description": "The TimeInterval class aims to facilitate the use of the ”micros()” and “millis()” commands, thus making time control more intuitive without paralyzing the main program.",
+  "description": "This time control library is based on the MILLIS() and MICROS() procedures, with the main objective of replacing the DELAY() command, thus avoiding the programming LOOP paralyzation.",
   "repository":
   {
     "type": "git",
     "url": "https://github.com/ESDeveloperBR/TimeInterval"
   },
   "authors":
-  [
-    {
-        "name": "ESDeveloperBR",
-        "email": "esdeveloperbr@gmail.com",
-        "maintainer": true
-    }
-  ],
+  {
+    "name": "ESDeveloperBR",
+    "email": "esdeveloperbr@gmail.com",
+    "url": "https://github.com/ESDeveloperBR/TimeInterval",
+    "maintainer": true
+  },
+  "license": "MIT",
   "frameworks": "arduino",
   "platforms": "esp32, espressif8266, espressif32, ststm32, arduino",
   "headers": "TimeInterval.h"

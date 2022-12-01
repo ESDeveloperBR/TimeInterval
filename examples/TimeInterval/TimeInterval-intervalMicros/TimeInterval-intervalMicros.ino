@@ -1,11 +1,7 @@
 /*
-Author: Eder João Santini
-email: ederjsantini@gmail.com
-Library Download: https://github.com/ederjsantini/ES32Lab
-
-ATTENTION: ES32Lab depends on the library download
-  - TFT_eSPI_ES32Lab
-    https://github.com/ederjsantini/TFT_eSPI_ES32Lab
+Author: ESDeveloperBR
+email: esdeveloperbr@gmail.com
+Library Download: https://github.com/ESDeveloperBR/TimeInterval
     
 Objective:
 - Use the "TimeInterval" class that manages the time through the "intervalMicros()" command, not stopping the code in execution;

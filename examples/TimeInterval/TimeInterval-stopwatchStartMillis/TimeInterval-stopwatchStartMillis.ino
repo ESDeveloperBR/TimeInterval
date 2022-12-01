@@ -23,10 +23,10 @@ void setup() {
 // <<<<<<<<<<<<<<<<<<<<<<<<<<<< Loop >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 void loop() {
   /*
-    void TimeInterval::stopwatchStartMicros()
-    Initializes the stopwatch in microseconds
+    void TimeInterval::stopwatchStartMillis()
+    Initializes the stopwatch in milliseconds
   */
-  intervalTest.stopwatchStartMicros();
+  intervalTest.stopwatchStartMillis();
 
   Serial.println("*************");
   Serial.println("Hello World");
@@ -34,13 +34,13 @@ void loop() {
 
   /*
     long TimeInterval::stopwatchStopMicros()
-    Stop stopwatch - Microseconds and return the obtained value  
+    Stop stopwatch - Milliseconds and return the obtained value  
   */
-  long returnStopwatch = intervalTest.stopwatchStopMicros();
+  long returnStopwatch = intervalTest.stopwatchStopMillis();
 
   Serial.print("Execution of all previous println commands takes ");
   Serial.print(returnStopwatch);
-  Serial.println(" microsconds.");
+  Serial.println(" milliseconds.");
   Serial.println("");
   delay(5000);
 }
